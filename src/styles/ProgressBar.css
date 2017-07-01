@@ -1,0 +1,17 @@
+.outerBlock {
+    border: 2px solid grey;
+    width: 50%;
+    margin: 10px auto;
+    height:  60px;
+    font-size: 1.2em;
+}
+
+.outerBlock .innerBlock {
+    background-color: #97E2E2;
+    height: 56px;
+    max-width: 100%;
+}
+
+.outerBlock .text {
+    padding-top: 15px;
+}

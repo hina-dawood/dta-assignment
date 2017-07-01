@@ -1,0 +1,40 @@
+.app {
+  text-align: center;
+  width: 80%;
+  border: 10px solid black;
+  margin: auto;
+}
+
+@media only screen and (min-width: 480px){
+  .app .control .selectBox {
+    display: inline-block;
+  }
+
+  .app .control .buttonBox {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px){
+  .app .control .selectBox {
+    margin-bottom: 20px;
+  }
+}
+
+.app .control {
+  margin-bottom: 50px;
+}
+
+.app .control .selectBox {
+  margin-right: 10px;
+}
+
+.app .control .buttonBox .btn {
+  margin-right: 10px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  border-radius: 0;
+}
+
+
+
