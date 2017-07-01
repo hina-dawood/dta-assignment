@@ -67,8 +67,7 @@ class App extends Component {
    */
   onClickButton(event){
     this.setState({
-      //purposely haven't mentioned second parameter 'radix' for parseInt function to generate linting error while doing npm start
-      //linting is being performed at compilation can be verified by correcting invocation to parseInt(event.target.innerText, 10)
+      //linting is being performed at compilation time, see lint warnings on terminal by changing invocation to parseInt(event.target.innerText)
       changeByValue: parseInt(event.target.innerText, 10)
     })
   }
