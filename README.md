@@ -8,7 +8,7 @@ You’ll need to have Node >= 6 on your machine
 4. npm start
 5. open url http://localhost:3000/ in browser to view the app
 6. Execute 'npm run test' to run unit testcases
-7. Code linting will be performed during npm start and lint warnings displayed in terminal
+7. Code linting will be performed during 'npm run build' and lint warnings displayed in terminal
 
 Requirements
 1. Must read data from the endpoint. - Yes
